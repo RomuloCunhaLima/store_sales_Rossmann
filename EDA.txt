@@ -1,0 +1,27 @@
+
+# Quais os 3 objetivos da EDA?
+
+ - Ganhar experiência de negócio
+ 
+ - Validadar Hipoteses de negócio. (Insights)
+ 
+ - Receber Variáveis que são importantes para o modelo.
+ 
+ 
+ ## Análise Univariada:
+ - Como é essa variável?
+ 
+ (Min, Max, Distribuição, Range,.... )
+ 
+ ## Análise Bivariada:
+  - Como a variável impacta na resposta?
+  
+ ## Análise Multivariada:
+  - Como as variáveis se relacionam?
+  
+  
+ 
+ 
+ 
+ 
+ 
