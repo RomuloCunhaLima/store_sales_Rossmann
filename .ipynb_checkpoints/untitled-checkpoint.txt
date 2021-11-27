@@ -1,0 +1,54 @@
+A motivação da Preparação dos dados
+
+O aprendizado da maioria dos algoritmos de ML é facilitado com dados numéricos, e na mesma escala
+
+Como preparar os dados categoricos?
+
+Existem basicamente 3 tipos de preaparação dos dados
+
+1. Normalização:
+    - Rescala o centro para 0 com desvio-padrão igual a 1.
+    
+2. Rescaling:
+    - Rescala para o intervalo entre 0 e 1.
+    - muito usado quando não se tem uma distribuição não Gaussianas.
+    
+3. Transformação:
+    - Conversão de Feature Categóricas para Numéricas (Encoding).
+    - Transformação de Natureza
+    
+    
+
+
+Existem varios tipos de encoding (uns 10)
+
+dicas:
+1. tenha o feeling dos dados
+
+2. testar 
+pega e testa 5 tipos de enconding
+
+Tipos de Encoding
+
+1. One Hot Encoding
+cria colunas com 0 e 1
+
+2. Label Encoding
+enumera cada variavel sem ordem
+
+3. Ordinal Encoding
+ordena, ex, hot =3, cold = 1, very hot = 4, warm =2
+
+
+4. Target Encoding
+leva em consideração a media do redultado  de cada variável
+
+5. Frequency Encoding
+leva em consideração a media de cada variável
+
+6. Embedding Encoding
+usa redes neurais
+
+https://towardsdatascience.com/all-about-categorical-cariable-encoding
+
+contrib.scikit-learn.org/categorical-encoding
