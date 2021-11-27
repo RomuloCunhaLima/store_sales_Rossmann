@@ -1,0 +1,21 @@
+A motivação da Preparação dos dados
+
+O aprendizado da maioria dos algoritmos de ML é facilitado com dados numéricos, e na mesma escala
+
+Como preparar os dados categoricos?
+
+Existem basicamente 3 tipos de preaparação dos dados
+
+1. Normalização:
+    - Rescala o centro para 0 com desvio-padrão igual a 1.
+    
+2. Rescaling:
+    - Rescala para o intervalo entre 0 e 1.
+    - muito usado quando não se tem uma distribuição não Gaussianas.
+    
+3. Transformação:
+    - Conversão de Feature Categóricas para Numéricas (Encoding).
+    - Transformação de Natureza
+    
+    
+    
