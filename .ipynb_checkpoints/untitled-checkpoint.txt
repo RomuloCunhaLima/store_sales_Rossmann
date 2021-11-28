@@ -52,3 +52,28 @@ usa redes neurais
 https://towardsdatascience.com/all-about-categorical-cariable-encoding
 
 contrib.scikit-learn.org/categorical-encoding
+
+
+Features apartir de Transformação de Natureza
+
+2 Tipos de transformações:
+
+- De Grandeza 
+    - trazer a variável resposta o com uma distribuição  mais próximo possivel de uma normal
+    
+- De Natureza
+    - trazer a natureza real dos seus dados dentro de um conjunto de dados
+    
+1.0 Logarithm Transformation.
+2. Box-Cox Transformation
+3. Cube-Root TRansformation ((extrair a raiz cubica de todos os valores)
+4. Square-root transformation
+5. seno e cosseno
+
+    
+
+    
+
+
+
+
