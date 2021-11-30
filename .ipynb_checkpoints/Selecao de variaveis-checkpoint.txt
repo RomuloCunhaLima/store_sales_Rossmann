@@ -16,3 +16,20 @@
  3. Seleção por SubSet (Wrapper Methods).
  
  
+ Seleçao por importancia(Método Embutido)
+     - 1. Random Forest.
+         - Gini Impurity
+     
+     - 2. Lasso Re gression.
+     - 3. Ridge Regression.
+ 
+ 
+ 
+ 
+ Seleção por Subset (Wrapper Method)
+     - 1. Selecione uma unica variavel
+     2. testa, é relevante? se sim inclui, se não exclui
+    . Algoritmo se chama Boruta
+    
+ 
+ 
