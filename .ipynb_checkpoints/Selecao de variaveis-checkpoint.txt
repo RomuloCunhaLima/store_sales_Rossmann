@@ -1,0 +1,18 @@
+ Existem 3 metodos de seleção de variáveis
+ 
+ 1. Seleção Univariada (Filter Methods).
+     - Classicar as variáveis como sendo relevantes ou não relevantes
+     - Coeficieente de Correlação (de -1 a 1).
+     - Vantagens:
+         Simples 
+         rápido e
+         facil entendimento
+     - Desvantagens:
+         Não considera a influencia entre as variaveis
+         
+     
+ 2. Seleção por importância (Embedded Methods).
+ 
+ 3. Seleção por SubSet (Wrapper Methods).
+ 
+ 

@@ -1,0 +1,35 @@
+ Existem 3 metodos de seleção de variáveis
+ 
+ 1. Seleção Univariada (Filter Methods).
+     - Classicar as variáveis como sendo relevantes ou não relevantes
+     - Coeficieente de Correlação (de -1 a 1).
+     - Vantagens:
+         Simples 
+         rápido e
+         facil entendimento
+     - Desvantagens:
+         Não considera a influencia entre as variaveis
+         
+     
+ 2. Seleção por importância (Embedded Methods).
+ 
+ 3. Seleção por SubSet (Wrapper Methods).
+ 
+ 
+ Seleçao por importancia(Método Embutido)
+     - 1. Random Forest.
+         - Gini Impurity
+     
+     - 2. Lasso Re gression.
+     - 3. Ridge Regression.
+ 
+ 
+ 
+ 
+ Seleção por Subset (Wrapper Method)
+     - 1. Selecione uma unica variavel
+     2. testa, é relevante? se sim inclui, se não exclui
+    . Algoritmo se chama Boruta
+    
+ 
+ 
