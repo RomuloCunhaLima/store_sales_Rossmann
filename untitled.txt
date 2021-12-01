@@ -1,0 +1,22 @@
+A Motivação dos Modelos de Machine Learning
+     - Aprender o comportamento de vendas com variáveis disponíveis e então generalizá-lo para o futuro.
+     
+
+Os Tipos de Tarefas dos algoritmos podem apresentar
+    
+    A tarefa supervisionada:
+        a. Classificação
+        b. Regressão
+        c. séries temporais
+    
+
+Os Tipos de Modelos não supervisionado
+
+    a. agrupamento ou clusterização
+    
+    
+Os tipos de modelos semi-supervisionados
+
+    Ação & Recompensa
+    a. Reiforcement Learning
+
