@@ -1,0 +1,16 @@
+Modelos de ML a serem implementados:
+1. Modelo de Média (Average Model).
+serve para ser uma base de comparação.
+
+2. Linear Regression.
+
+3. Linear Regression Regularized.
+tem um parametro a mais e geral mente performa melhor que a LR.
+
+começa com 2 e 3 pq são mais simples
+
+4. random Forest Regressor.
+
+
+5. XGBoost Regressor.
+
