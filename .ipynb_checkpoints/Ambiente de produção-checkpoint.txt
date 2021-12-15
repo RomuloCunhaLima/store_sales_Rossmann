@@ -1,0 +1,34 @@
+A motivação do Modelo em Produção
+
+Tornar as predições (classificação e predição tb) do modelo acessível para qlq consumidor
+
+1. API=Application Programming Interface
+
+2. Request=Requisição/chamada (pedido de dados p uma API)
+
+3. Endpoint=URL/Porta da API (endereço da API)
+
+4. Deploy = Implementação ( tirar do ambiente local e colocar em nuvem por exemplo)
+
+5. Ambiente local = Computador
+
+6. Ambiente de produção = Servidores na nuvem que fornecem um serviço/dados 
+
+7. Ambiente de Desenvolvimento = uma cópia do Ambinete de Produção na nuvem. (simula o ambiente real)
+
+
+    Arquitetura de Produção
+    
+ - Handler (API) arquivo.py
+     Ele fica esperando alguém chamar por ele, até que alguém faz uma requisição para ele
+     Ele não sabe nada, só sabe quem sabe fazer
+     ele chama o modelo de ML que esta treinado
+     
+
+- Lista de tarefas:
+
+1. Criar uma classe com as limpezas, transformações e encoding (Rossmann.py)
+
+2. Criar a API (Handler.py)
+
+3. Criar um Script para testar o Request.
