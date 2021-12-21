@@ -1,0 +1,26 @@
+[I 16:23:54.099 NotebookApp] Writing notebook server cookie secret to /run/user/1000/snap.jupyter/jupyter/notebook_cookie_secret
+[I 16:23:56.091 NotebookApp] Serving notebooks from local directory: /home/romulo/Documentos/repos/DataScience_Em_Producao
+[I 16:23:56.091 NotebookApp] The Jupyter Notebook is running at:
+[I 16:23:56.091 NotebookApp] http://localhost:8888/?token=0b8ae3b25c59865fe58fcf3a8e61e737b4891a1502cccf86
+[I 16:23:56.091 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:23:56.357 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///run/user/1000/snap.jupyter/jupyter/nbserver-3652-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=0b8ae3b25c59865fe58fcf3a8e61e737b4891a1502cccf86
+[W 16:24:41.650 NotebookApp] Notebook Rossmann_Notebook.ipynb is not trusted
+[I 16:24:55.067 NotebookApp] Kernel started: c568e94e-500c-45fc-98ab-609392966f05
+[I 16:25:05.239 NotebookApp] Adapting to protocol v5.1 for kernel c568e94e-500c-45fc-98ab-609392966f05
+[I 16:26:47.196 NotebookApp] Saving file at /Rossmann_Notebook.ipynb
+[W 16:26:47.198 NotebookApp] Notebook Rossmann_Notebook.ipynb is not trusted
+[I 16:28:47.156 NotebookApp] Saving file at /Rossmann_Notebook.ipynb
+[I 16:30:47.166 NotebookApp] Saving file at /Rossmann_Notebook.ipynb
+[I 16:44:47.728 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel c568e94e-500c-45fc-98ab-609392966f05 restarted
+[I 16:45:36.512 NotebookApp] Saving file at /Rossmann_Notebook.ipynb
+[I 16:58:07.765 NotebookApp] Saving file at /Rossmann_Notebook.ipynb
+[I 16:58:12.041 NotebookApp] Starting buffering for c568e94e-500c-45fc-98ab-609392966f05:70d54a038593405b8ded081137f04131
+[C 16:59:10.265 NotebookApp] received signal 15, stopping
+[I 16:59:10.302 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[I 16:59:10.628 NotebookApp] Shutting down 1 kernel
