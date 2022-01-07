@@ -90,3 +90,7 @@ Verdadeiro falso.
 ## 9. Lições aprendidas
 
 ## 10. Próximos Passos
+
+
+
+[Linkedin](https://www.linkedin.com/in/cunhaliromulo/)
