@@ -1,5 +1,5 @@
 # Previsões de Vendas rede de drogaria Rossmann
-foto xxxxx
+![](rossmann.jpg)
 
 O contexto a seguir é fictício, os dados foram retirados do Kaggle
 
@@ -69,7 +69,7 @@ Etapa 08. Hyperparameter Fine Tunning: O objetivo é Escolher os melhores valore
 
 Etapa 09. Converter o desempenho do modelo em valores comerciais: O objetivo é converter o resultado do modelo em valores de negócios
 
-Etapa 10. Deploy do modelo em produção: O modelo foi publicado em nuvem no Heroku e acessado via bot no app do Telegram
+Etapa 10. Deploy do modelo em produção: O modelo foi publicado em nuvem no Heroku e acessado via bot no app do Telegram que possibilite consultar a previsão a qualquer momento pelo celular
 
 ## 4. Os 3 principais insights de dados
 Hipótese 01:
