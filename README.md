@@ -47,7 +47,7 @@ Promo - indica se uma loja está fazendo uma promoção naquele dia
 **PromoInterval** - descreve os intervalos consecutivos em que a Promo2 é iniciada, nomeando os meses em que a promoção é reiniciada. Por exemplo. "Fev, maio, agosto, novembro" significa que cada rodada começa em fevereiro, maio, agosto, novembro de qualquer ano para aquela loja
 
 ## 3. Estratégia de Solução
-Minha estratégia para resolver esse desafio foi:
+A estratégia utilizada para resolver esse desafio foi o método CRISP-DM:
 Etapa 01. Descrição dos dados:
 Etapa 02. Engenharia de recursos:
 Etapa 03. Filtragem de dados:
