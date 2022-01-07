@@ -1,9 +1,10 @@
 # Previsões de Vendas rede de drogaria Rossmann
 ![](rossmann.jpg)
 
-O contexto a seguir é fictício, os dados foram retirados do Kaggle
+O contexto a seguir é fictício, os dados foram retirados do [Kaggle](https://www.kaggle.com/c/rossmann-store-sales/data)
 
-Acesse o código do projeto aqui xxxxxxx
+Para melhor visualização jupyter notebook accesse:
+[nbviewer](https://nbviewer.org/github/RomuloCunhaLima/store_sales_Rossmann/blob/master/Rossmann_Notebook.ipynb)
 
 ## 1. Problema de negócio.
 Rossmann opera mais de 3.000 drogarias em 7 países europeus. Atualmente, os gerentes de loja da Rossmann têm a tarefa de prever suas vendas diárias com até seis semanas de antecedência. As vendas da loja são influenciadas por muitos fatores, incluindo promoções, competição, feriados escolares e estaduais, sazonalidade e localidade. Com milhares de gerentes individuais prevendo vendas com base em suas circunstâncias únicas, a precisão dos resultados pode ser bastante variada.
