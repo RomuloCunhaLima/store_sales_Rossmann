@@ -48,16 +48,28 @@ Promo - indica se uma loja está fazendo uma promoção naquele dia
 
 ## 3. Estratégia de Solução
 A estratégia utilizada para resolver esse desafio foi o método CRISP-DM:
-Etapa 01. Descrição dos dados:
-Etapa 02. Engenharia de recursos:
-Etapa 03. Filtragem de dados:
-Etapa 04. Análise Exploratória de Dados:
-Etapa 05. Preparação de dados:
-Etapa 06. Seleção de recursos:
-Etapa 07. Modelagem de Machine Learning:
-Etapa 08. Hyperparameter Fine Tunning:
-Etapa 09. Converter o desempenho do modelo em valores comerciais:
-Etapa 10. Deploy do modelo em produção
+
+Etapa 00. Entendimento do negócio: Buscar entender os reais motivos da necessidade de previsão de vendas. É a etapa mais importante para a solução corret
+
+Etapa 01. Descrição dos dados: É preciso entender bem os atributos e dados  para fins de definir os objetivos do restante do processo. Como identificação de outliers e também métricas estatísticas básicas como: média, mediana, máximo, mínimo, intervalo, skewness, kurtosis e desvio padrão.
+
+Etapa 02. Engenharia de recursos: A fim de melhor descrever o fenômeno a ser modelado, o objetivo dessa etapa é obter atributos a partir das variáveis originais
+
+Etapa 03. Filtragem de dados: Eliminar colunas e linhas que não contenham informações e que não estarão disponíveis para a modelagem do negócio.
+
+Etapa 04. Análise Exploratória de Dados: Explorar os dados e gerar diversas Hipóteses para validar e encontrar insights e as variaveis mais importantes a serem utilizadas no modelo de Machine Learning
+
+Etapa 05. Preparação de dados: Transformar, balancear e regularizar os dados para aplicação no modelo de Machine  Learning
+
+Etapa 06. Seleção de recursos: Seleção dos melhores atributos para treinar o modelo. Foi utilizado o algoritmo Boruta para fazer essa seleção
+
+Etapa 07. Modelagem de Machine Learning: Foram utilizados os algoritmos de regressão linear para fazer o treinamento do modelo, usou tecnicas de cross validation para verificar o melhor resultado
+
+Etapa 08. Hyperparameter Fine Tunning: O objetivo é Escolher os melhores valores para cada um dos parâmetros do modelo selecionado
+
+Etapa 09. Converter o desempenho do modelo em valores comerciais: O objetivo é converter o resultado do modelo em valores de negócios
+
+Etapa 10. Deploy do modelo em produção: O modelo foi publicado em nuvem no Heroku e acessado via bot no app do Telegram
 
 ## 4. Os 3 principais insights de dados
 Hipótese 01:
