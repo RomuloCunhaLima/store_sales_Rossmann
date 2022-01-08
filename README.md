@@ -96,11 +96,27 @@ Etapa 10. Deploy do modelo em produção: O modelo foi publicado em nuvem no Her
 ## 6. Desempenho do modelo de Machine Learning
 ![](result_table/table_CV.png)
 
+Erro Médio Absoluto (MAE), o Erro Médio Absoluto Porcentagem (MAPE) e o Erro Quadrático Médio Raiz (RMSE)
+
 Apesar de ter um resultado pior vamos seguir com o XGBoost Regressor, porque historicamente ele teve uma performace parecida com a Random Forest após fazer o HiperParameter Fine Tuning e normalmente usa menos memoria e é mais rápido
 
 ## 6.1 HyperParameter Fine Tuning
 ![](result_table/HyperParameter_Fine_Tuning.png)
-Vamos seguir com o modelo XGBoost Regressor tuned, ele teve um desempenho um pouco abaixo do Random Forest Regressor, porém é bem mais leve e rápido
+
+O modelo "XGBoost Regressor tuned" teve um Erro médio absoluto de $762. Isso representa um erro médio de 11%, podendo subestimar ou superestimar o valor em 11%. O RMSE é uma métrica sensivel a outliers e o modelo teve um erro Quadrático Médio igual a 1094,7
+
+Vamos seguir com o modelo XGBoost Regressor tuned, ele teve um desempenho um pouco abaixo do Random Forest Regressor, porém é bem mais leve(requer menos espaço no servidor) e rápido.
+
+### 6.1.1 Relação entre as predições e o resultado real de vendas
+![](img/predictionXsales.png)
+
+O modelo 1: mostra a diferença entre as vendas reais e as previsões em relação ao tempo
+
+O modelo 2: mostra o tanto que o modelo foi subestimado e superestimado
+
+O modelo 3: distribuição do erro, tem uma distribuição proxima da gaussiana
+
+O modelo 4: Residuo, distribuição em relação ao erro
 
 ## 7. Resultados de Negócios
 
