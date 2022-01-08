@@ -144,5 +144,6 @@ Considerando o primeiro ciclo, obtive uma boa performance com 11,5% de erro que 
 Por se tratar de um problema de previsão de vendas essa solução poderia ter sido trabalhada utilizando algoritmos de séries temporais.
 Construir um pipeline para retreinar o modelo.
 
-
+## Autor
+Rômulo da Cunha Lima
 [Linkedin](https://www.linkedin.com/in/cunhaliromulo/)
