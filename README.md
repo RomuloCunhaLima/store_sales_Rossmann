@@ -119,6 +119,12 @@ O modelo 3: distribuição do erro, tem uma distribuição proxima da gaussiana
 O modelo 4: Residuo, distribuição em relação ao erro
 
 ## 7. Resultados de Negócios
+Através desse modelo foi possível prever o melhor e o pior cenário para cada loja, com uma margem pequena de erro, como os resultados financeiros mostrado no exemplo da tabela abaixo:
+![](img/resultado_loja.png)
+
+A tabela mostra o ID da loja, suas predições de vendas, o melhor e o pior cenário e os erros
+
+![](img/total.png)
 
 ## 8. Conclusões
 
