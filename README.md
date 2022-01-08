@@ -88,8 +88,19 @@ Etapa 10. Deploy do modelo em produção: O modelo foi publicado em nuvem no Her
 
 
 ## 5. Modelo de Machine Learning aplicado
-
+- Average Model para ter um modelo base de comparação
+- Linear Regression Model
+- Linear Regression Regularized Model – Lasso
+- Random Forest Regressor
+- XGBoost Regressor
 ## 6. Desempenho do modelo de Machine Learning
+![](result_table/table_CV.png)
+
+Apesar de ter um resultado pior vamos seguir com o XGBoost Regressor, porque historicamente ele teve uma performace parecida com a Random Forest após fazer o HiperParameter Fine Tuning e normalmente usa menos memoria e é mais rápido
+
+## 6.1 HyperParameter Fine Tuning
+![](result_table/HyperParameter_Fine_Tuning.png)
+Vamos seguir com o modelo XGBoost Regressor tuned, ele teve um desempenho um pouco abaixo do Random Forest Regressor, porém é bem mais leve e rápido
 
 ## 7. Resultados de Negócios
 
