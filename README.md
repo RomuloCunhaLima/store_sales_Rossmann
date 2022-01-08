@@ -126,6 +126,12 @@ A tabela mostra o ID da loja, suas predições de vendas, o melhor e o pior cen�
 
 ![](img/total.png)
 
+## 8. Acessar e obter as previsões via Telegram
+- A API fica hospedada na plataforma do Heroku e pode ser consultada via Telegram
+![](img/telegram_bot.jpeg)
+
+Caso coloque ID lojas que não existe(ex: 44) ou outros nomes o app retorna uma mensagem de erro, caso contrario ele retorna o valor que a loja vai vender nas próximas 6 semanas
+
 ## 8. Conclusões
 
 ## 9. Lições aprendidas
