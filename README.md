@@ -1,5 +1,5 @@
 # Previsões de Vendas rede de drogaria Rossmann
-![](rossmann.jpg)
+![](img/rossmann.jpg)
 
 O contexto a seguir é fictício, os dados foram retirados do [Kaggle](https://www.kaggle.com/c/rossmann-store-sales/data)
 
@@ -73,8 +73,11 @@ Etapa 09. Converter o desempenho do modelo em valores comerciais: O objetivo é 
 Etapa 10. Deploy do modelo em produção: O modelo foi publicado em nuvem no Heroku e acessado via bot no app do Telegram que possibilite consultar a previsão a qualquer momento pelo celular
 
 ## 4. Os 3 principais insights de dados
-Hipótese 01:
-Verdadeiro falso.
+### Hipótese 01: Lojas com competidores há mais tempo deveriam vender mais
+
+    - falsa, lojas com competidores a mais tempo vendem menos
+
+![](img/competition_time.svg)
 Hipótese 02:
 Verdadeiro falso.
 Hipótese 03:
