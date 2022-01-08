@@ -72,16 +72,20 @@ Etapa 09. Converter o desempenho do modelo em valores comerciais: O objetivo é 
 
 Etapa 10. Deploy do modelo em produção: O modelo foi publicado em nuvem no Heroku e acessado via bot no app do Telegram que possibilite consultar a previsão a qualquer momento pelo celular
 
-## 4. Os 3 principais insights de dados
-### Hipótese 01: Lojas com competidores há mais tempo deveriam vender mais
-
-    - falsa, lojas com competidores a mais tempo vendem menos
+## 4. Os principais insights de dados
+### 4.1. Lojas com competidores a mais tempo vendem menos
 
 ![](img/competition_time.svg)
-Hipótese 02:
-Verdadeiro falso.
-Hipótese 03:
-Verdadeiro falso.
+
+### 4.2. Lojas vendem menos durante o feriado de Natal
+![](img/feriado.svg)
+
+### 4.3. Lojas vendem mais no segundo semestre do ano
+![](img/periodo_do_ano.svg)
+
+### 4.4 Lojas vendem menos nos finais de semana (1 = segunda e 7 = domingo)
+![](img/vendas_fds.svg)
+
 
 ## 5. Modelo de Machine Learning aplicado
 
